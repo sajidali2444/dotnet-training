@@ -1,2 +1,8 @@
+bin
 bin/
 .idea/
+/bin/
+/bin
+obj/
+/obj
+obj

@@ -11,7 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 // builder.Services.AddEntityFrameworkNpgsql()
-//     .AddDbContext<AppDBContext>(options => options.UseNpgsql(dbConnection));
+
 builder.Services.AddDbContext<AppDBContext>(options => options.UseNpgsql(dbConnection));
 
 var app = builder.Build();
